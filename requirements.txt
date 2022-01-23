@@ -1,6 +1,7 @@
 decorator==5.0.9
 Django==3.1.7
 django-crispy-forms==1.11.2
+django-plotly-dash==1.6.4
 dpd-components==0.1.0
 dpd-static-support==0.0.5
 Flask-Compress==1.10.1
