@@ -1,0 +1,737 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Sandip Portfollio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">
+    <link rel="shortcut icon" href="{% static '/images/profile_pic/dice.ico' %}">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+    <!-- Layout CSS -->
+    <link rel="stylesheet" href="{% static '/css/layout.css' %}">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static '/css/plugins/font-awesome/css/font-awesome.css' %}">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href={% static '/css/styles.css' %}>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+{% include "My_Portfolio/navbar.html" %}
+
+<body>
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-8 col-sm-12 col-xs-12">
+
+            <section class="profile header section card shadow p-3 bg-white rounded">
+                <div class="container card-body">
+                    <img class="profile-image img-responsive pull-left"
+                         src="https://avatars.githubusercontent.com/u/61373052?s=400&u=25db33aba6319d4d2423be97d0b9d97c3d4f4e96&v=4"
+                         alt="Sandip Sonawane"/>
+
+                    <div class="profile-content pull-left">
+                        <h2 class="name">Sandip Sonawane</h2>
+                        <h3 class="desc">Data Scientist</h3>
+                        <ul class="social list-inline">
+                            <li><a href="https://github.com/SandipSonawane"><i class="fa fa-github line-items"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/sandip-sonawane-32b759ba/"><i
+                                    class="fa fa-linkedin line-items"></i></a></li>
+                            <li><a href="https://www.facebook.com/sandeep.sonawane11/"><i
+                                    class="fa fa-facebook line-items"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/sandip_b_sonawane/"><i
+                                    class="fa fa-instagram line-items"></i></a></li>
+                            <li><a href="https://twitter.com/sandipS20510541"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--//section-inner-->
+            </section>
+
+
+            <!--//section latest apps section-->
+            <section class="latest section card shadow p-3 bg-white rounded">
+                <div class="section-inner">
+                    <h2 class="heading" id="apps">Latest Apps</h2>
+                    <div class="content">
+
+                        <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
+                                                                       style="width: 100%; margin-bottom: 14px;"
+{#                                                                       href="{% url 'movie_recommender_user' %}"#}
+{#                                                                       href="http://3.19.69.21:8000/movie_recommender/"#}
+                                                                       target="_blank">Movie Recommender</a></h3>
+
+                        <div class="item row featured-image sub-apps">
+                            <div class="sub-app-img-section">
+
+                                <a class=""
+{#                                   href="{% url 'movie_recommender_user' %}"#}
+{#                                   href="http://3.19.69.21:8000/movie_recommender/"#}
+                                   target="_blank">
+                                    <img class="img-responsive project-image"
+                                         src="{% static '/images/projects/movie_recommender.png' %}"
+                                         alt="project name"/>
+                                </a>
+                                <a class="btn btn-light sub-app-btn"
+{#                                   href="{% url 'movie_recommender_user' %}"#}
+{#                                   href="http://3.19.69.21:8000/movie_recommender/"#}
+                                   target="_blank"><i class="fa fa-external-link"></i> Go to App</a>
+                            </div>
+
+                            <div class="sub-app-content">
+                                <div class="ribbon">
+                                    <div class="text">App</div>
+                                </div>
+
+
+                                <div class="desc">
+                                    <h3 class="title inMiddle"><a class="btn btn-light"
+{#                                                                  href="{% url 'movie_recommender_user' %}"#}
+{#                                                                  href="http://3.19.69.21:8000/movie_recommender/"#}
+                                                                  target="_blank">Movie Recommender</a></h3>
+                                    <p>This app is built with a recommendation engine.</p>
+                                    <p>
+                                        Based on the user ratings, it recommends top movies using collaborative
+                                        filtering technique
+                                    </p>
+
+                                    <p>
+                                        Users can also select their choice of genre to get top recommendation.
+                                    </p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                        </div>
+                        <!--//item-->
+
+
+                        <!--//item-->
+                        <hr class="divider"/>
+                        <!--This section is for mobile -->
+
+                        <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
+                                                                       style="width: 100%; margin-bottom: 14px;"
+{#                                                                       href="{% url 'markov_text_generate' %}"#}
+                                                                       target="_blank">Text Generation using Markov
+                            Chains</a>
+                        </h3>
+
+                        <div class="item row featured-image sub-apps">
+
+                            <div class="sub-app-img-section">
+                                <a class=""
+{#                                   href="{% url 'markov_text_generate' %}"#}
+                                   target="_blank">
+                                    <img class="img-responsive project-image"
+                                         src="{% static '/images/projects/sherlock.jpg' %}" alt="project name"/>
+
+                                </a>
+
+                                <a class="btn btn-light sub-app-btn"
+{#                                   href="{% url 'top_skills_app' %}"#}
+                                   target="_blank"><i class="fa fa-external-link"></i> Go to App</a>
+
+
+                            </div>
+
+                            <div class="sub-app-content">
+
+                                <div class="ribbon">
+                                    <div class="text">App</div>
+                                </div>
+
+
+                                <div class="desc">
+                                    <h3 class="title inMiddle"><a class="btn btn-light"
+{#                                                                  href="{% url 'markov_text_generate' %}"#}
+                                                                  target="_blank">Text Generation using Markov
+                                        Chains</a></h3>
+                                    <p>Markov Chain is a stochastic model in which the probability of an event occurring
+                                        depends only upon preceding event.</p>
+                                    <p>
+{#                                        In this <a href="{% url 'markov_text_generate' %}">application</a>, you can#}
+{#                                        generate#}
+                                        In this application, you can generate
+                                        the text by restricting the next state to top
+                                        five probable states to generate more meaningful text.
+                                    </p>
+                                    <p>
+                                        The text data for this app is available on this <a
+                                            href="https://www.kaggle.com/idevji1/sherlock-holmes-stories"
+                                            target="_blank">kaggle
+                                        link.</a>
+                                        The source code can be found on my <a
+                                            href="https://github.com/SandipSonawane/Natural-Language-Processing/tree/main/Text%20Generation%20Using%20Markov%20Chain"
+                                            target="_blank">GitHub
+                                        account page.</a>
+                                    </p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+
+
+                        </div>
+                        <!--//item-->
+
+
+                        <!--//item-->
+                        <hr class="divider"/>
+                        <!--This section is for mobile -->
+
+                        <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
+                                                                       style="width: 100%; margin-bottom: 14px;"
+{#                                                                       href="{% url 'clusterability' %}"#}
+                                                                       target="_blank">Is your data clusterable?</a>
+                        </h3>
+
+
+                        <div class="item row featured-image sub-apps">
+                            <div class="sub-app-img-section">
+                                <a class=""
+{#                                   href="{% url 'clusterability' %}"#}
+                                   target="_blank">
+                                    <img class="img-responsive project-image"
+                                            {#                                         src="https://explained.ai/regularization/images/lagrange-animation.gif"#}
+                                         src="{% static '/images/projects/app_clusterability.PNG' %}"
+                                         alt="project name"/>
+                                </a>
+
+                                <a class="btn btn-light sub-app-btn"
+{#                                   href="{% url 'clusterability' %}"#}
+                                   target="_blank"><i class="fa fa-external-link"></i> Go to App</a>
+                            </div>
+
+
+                            <div class="sub-app-content">
+
+                                <div class="ribbon">
+                                    <div class="text">App</div>
+                                </div>
+
+
+                                <div class="desc">
+                                    <h3 class="title inMiddle"><a class="btn btn-light"
+{#                                                                  href="{% url 'clusterability' %}"#}
+                                                                  target="_blank">Is your data clusterable?</a></h3>
+                                    <p>Before applying any clustering algorithms, we need to check if our data is
+                                        clusterable.</p>
+                                    <p>
+                                        In this application, I have included techniques by which we can determine
+                                        clusterability of data.
+                                    </p>
+                                    <p>
+                                        These techniques include t-SNE, Silhouette Plots, Hopkin's statistic, and elbow
+                                        plot.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--//item-->
+
+
+                        <!--//item-->
+                        <hr class="divider"/>
+
+                        <!--This section is for mobile -->
+                        <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
+                                                                       style="width: 100%; margin-bottom: 14px;"
+{#                                                                       href="{% url 'top_skills_app' %}"#}
+                                                                       target="_blank">Top Skills Employers Look For</a>
+                        </h3>
+
+                        <div class="item row featured-image sub-apps">
+                            <div class="sub-app-img-section">
+
+                                <a class=""
+{#                                   href="{% url 'top_skills_app' %}"#}
+                                   target="_blank">
+                                    <img class="img-responsive project-image"
+                                         src="{% static '/images/projects/top-skills.png' %}"
+                                         alt="project name"/>
+                                </a>
+                                <a class="btn btn-light sub-app-btn"
+{#                                   href="{% url 'top_skills_app' %}"#}
+                                   target="_blank"><i class="fa fa-external-link"></i> Go to App</a>
+                            </div>
+
+                            <div class="sub-app-content">
+                                <div class="ribbon">
+                                    <div class="text">App</div>
+                                </div>
+
+
+                                <div class="desc">
+                                    <h3 class="title inMiddle"><a class="btn btn-light"
+{#                                                                  href="{% url 'top_skills_app' %}"#}
+                                                                  target="_blank">Top Skills Empoyers Look For</a></h3>
+                                    <p>This dashboard gives top 20 skills for different job categories across top
+                                        companies.</p>
+                                    <p>
+                                        Users can select a company of their choice. The data will be refreshed
+                                        automatically.
+                                    </p>
+                                    <p>
+                                        Users can find more information by visiting the links provided in the dashboard
+                                        table. The source code can be found on my <a
+                                            href="https://github.com/SandipSonawane/top-skills-employers-look-for"
+                                            target="_blank">GitHub
+                                        account page.</a></div>
+                                <!--//desc-->
+                            </div>
+                        </div>
+                        <!--//item-->
+
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+            </section>
+            <!--//section-->
+
+            <section class="projects section card shadow p-3 bg-white rounded" id="projects">
+                <div class="section-inner">
+                    <h2 class="heading">Projects</h2>
+                    <div class="content">
+                        <div class="item">
+
+                            <h3 class="title"><a class="btn btn-light"
+                                                 href="https://rpubs.com/sandips/credit_card_fraud_detection">Credit
+                                Card Fraud Detection (Kaggle)</a></h3>
+                            <ul>
+
+                                <li>Analyzed the European credit card data from Kaggle to detect a fraudulent
+                                    transactions.
+                                </li>
+                                <li>Performed EDA, variable, and model selection on dataset containing 284k
+                                    transactions using R.
+                                </li>
+                                <li>Built Logistic, KNN, Decision Tree, and Xgboost models. Achieved
+                                    cross-validated area under ROC curve of 99.73 Xgboost
+                                    algorithm.
+                                </li>
+                            </ul>
+
+                            <p><a class="more-link btn btn-light"
+                                  href="https://rpubs.com/sandips/credit_card_fraud_detection"
+                                  target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                        </div>
+
+                        <hr class="divider"/>
+
+                        <!--//item-->
+                        <div class="item">
+                            <h3 class="title"><a class="btn btn-light"
+                                                 href="https://github.com/SandipSonawane/UIUC-STAT425-Applied-Regression-and-Design/blob/main/STAT%20425%20Final%20Project.pdf">Covid-19
+                                Healthy Diet and Recovery Rate</a></h3>
+
+                            <ul>
+                                <li>Analyzed data from 165 countries. Performed variable selection.</li>
+                                <li>Built parametric and non-parametric regression models using R.</li>
+                                <li> Achieved cross-validated RMSE of 0.035 using Extreme Gradient Boosting Machines
+                                    algorithm.
+                                </li>
+                            </ul>
+                            <p>
+
+                                <a class="more-link btn btn-light"
+                                   href="https://github.com/SandipSonawane/UIUC-STAT425-Applied-Regression-and-Design/blob/main/STAT%20425%20Final%20Project.pdf"
+                                   target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                        </div>
+
+                        <hr class="divider"/>
+
+                        <!--//item-->
+                        <div class="item">
+                            <h3 class="title"><a class="btn btn-light" href="https://rpubs.com/sandips/baseball">Baseball
+                                Pitch Type
+                                Prediction</a>
+                            </h3>
+                            <ul>
+                                <li>Analyzed baseball pitch data containing 750k pitches using R.</li>
+                                <li>Reduced variables in design matrix through correlation analysis Achieved
+                                    cross-validated accuracy of 85.9% with min. F1 score of 0.7 for each class.
+                                </li>
+                            </ul>
+                            <p><a class="more-link btn btn-light"
+                                  href="https://rpubs.com/sandips/baseball"
+                                  target="_blank"><i class="fa fa-external-link"></i> Find out More</a></p>
+                        </div>
+                        <!--//item-->
+
+                        <a class="btn btn-dark" href="https://github.com/SandipSonawane" target="_blank">More
+                            on Github <i
+                                    class="fa fa-chevron-right"></i></a>
+
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+            </section>
+            <!--//section-->
+
+            <section class="experience section card shadow p-3 bg-white rounded">
+                <div class="section-inner">
+                    <h2 class="heading" id="work-experience">Work Experience</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title">Research Assistant <span class="place"><a
+                                    href="https://grainger.illinois.edu/" target="_blank">Grainger College of Engineering</a></span>
+                                <span class="year">(Feb 2021 - July 2021)</span></h3>
+                            <ul>
+                                <li>Established a full stack web application to predict risk of railway track failure
+                                    using Python and Django framework
+                                </li>
+                                <li>Automated data collection, analysis and prediction process using Python, cutting
+                                    down manual efforts by 99%
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!--//item-->
+
+                        <hr class="divider"/>
+
+                        <div class="item">
+                            <h3 class="title">Data Scientist - <span class="place"><a
+                                    href="https://www.eaton.com/us/en-us.html"
+                                    target="_blank">Eaton Research Labs</a></span>
+                                <span class="year">(May 2019 - Dec 2020)</span>
+                            </h3>
+                            <ul>
+                                <li> Applied unsupervised learning to identify patterns in 20k engineering drawing
+                                    files, implemented a Support Vector Machines
+                                    model to classify drawing templates
+                                </li>
+                                <li> Set up an end-to-end pipeline using Python, fetching input files from PLM
+                                    databases to extracting Material and Finish
+                                    information utilizing Google’s Tesseract Engine for OCR with 94% accuracy resulting
+                                    in an annual savings of $0.5M
+                                </li>
+                                <li> Created labeled dataset of 12k samples, cleaned text using NLTK, RegEx to build
+                                    supervised learning model for classification of
+                                    incoming email type using SVM
+                                </li>
+                                <li> Established pipeline to generate email response as per class with 96% accuracy and
+                                    min. F1 score of 85% for all classes
+                                </li>
+                                <li>Developed Python software with graphical user interface using Tkinter realizing in
+                                    estimated annual savings of $0.1M
+                                </li>
+                            </ul>
+                        </div>
+                        <!--//item-->
+
+                        <hr class="divider"/>
+
+                        <div class="item">
+                            <h3 class="title">Software Engineer - <span class="place"><a
+                                    href="https://www.eaton.com/us/en-us.html"
+                                    target="_blank">Eaton Research Labs</a></span>
+                                <span class="year">(Dec 2017 - Apr 2019)</span>
+                            </h3>
+                            <ul>
+                                <li>
+                                    Deployed full stack web applications using Django at backend, JavaScript, CSS,
+                                    HTML at frontend
+                                </li>
+                                <li> Designed database models with relational SQL for environmental compliance request
+                                    management as per requirements
+                                </li>
+                                <li> Automated manual processes using Python, JavaScript to increase efficiency,
+                                    created an interactive user interface with
+                                    standalone software, achieved $0.4M annual savings
+                                </li>
+                            </ul>
+                        </div>
+                        <!--//item-->
+
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+            </section>
+            <!--//section-->
+
+
+            <section class="about section card shadow p-3 bg-white rounded" id="about">
+                <div class="section-inner">
+                    <h2 class="heading">About Me</h2>
+                    <div class="content">
+                        <p>I am currently pursuing Master's Degree in Statistics from University of Illinois at
+                            Urbana-Champaign. I have a strong background in statistics, software development, data
+                            science and
+                            machine learning. My goal is to excel in the field of Data Science and machine learning.
+                        </p>
+
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+            </section>
+            <!--//section-->
+
+        </div>
+
+
+        <!--//primary-->
+        <div class="secondary col-md-4 col-sm-12 col-xs-12">
+
+            <aside class="education aside section card shadow p-3 bg-white rounded">
+                <div class="section-inner">
+                    <h2 class="heading">Education</h2>
+                    <div class="content">
+                        <div class="item">
+                            <h3 class="title"><i class="fa fa-graduation-cap"></i> MS in
+                                Statistics-Analytics</h3>
+                            <h4 class="university">University of Illinois at Urbana-Champaign <span
+                                    class="year">2022</span>
+                            </h4>
+                        </div>
+                        <!--//item-->
+                        <div class="item">
+                            <h3 class="title"><i class="fa fa-graduation-cap"></i> Bachelor of Technology</h3>
+                            <h4 class="university">College of Engineering, University of Pune <span
+                                    class="year">2017</span>
+                            </h4>
+                        </div>
+                        <!--//item-->
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+                {#            </aside>#}
+                <!--//section-->
+                <hr>
+                {#            <aside class="courses aside section card shadow p-3 bg-white rounded">#}
+                <div class="courses section-inner">
+                    <h2 class="heading">Courses</h2>
+                    <div class="content">
+                        <div class="item">
+                            <ul>
+                                <li><h3> Deep Learning for Computer Vision</h3></li>
+                                {#                                <li><h3> Applied Machine Learning</h3></li>#}
+                                <li><h3> Mathematical Statistics</h3></li>
+                                <li><h3> Statistical Learning</h3></li>
+                                <li><h3> Algorithms for Data Analytics</h3></li>
+                                <li><h3> Statistics and Probability II</h3></li>
+                                <li><h3> Applied Regression and Design</h3></li>
+                                <li><h3> Unsupervised Learning</h3></li>
+                                <li><h3> Basics of Statistical Learning</h3></li>
+                            </ul>
+                        </div>
+                        <!--//item-->
+
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+                {#            </aside>#}
+                <!--//section-->
+                <hr>
+                {#            <aside class="skills aside section card shadow p-3 bg-white rounded">#}
+                <div class="skills section-inner">
+                    <h2 class="heading">Skills</h2>
+                    <div class="content">
+                        <p class="intro">
+                        </p>
+
+                        <div class="skillset">
+
+                            <div class="item">
+                                <h3 class="level-title">Python &amp; Django<span class="level-label"
+                                                                                 data-toggle="tooltip"
+                                                                                 data-placement="left"
+                                                                                 data-animation="true"
+                                                                                 title="You can use the tooltip to add more info...">Expert</span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="96%">
+                                    </div>
+                                </div>
+                                <!--//level-bar-->
+                            </div>
+                            <!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Javascript, HTML5, CSS3<span
+                                        class="level-label">Expert</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="90%">
+                                    </div>
+                                </div>
+                                <!--//level-bar-->
+                            </div>
+                            <!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">R, SQL, VBA<span
+                                        class="level-label">Expert</span></h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="96%">
+                                    </div>
+                                </div>
+                                <!--//level-bar-->
+                            </div>
+                            <!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Plotly, PowerBI, Matplotlib, GGplot2<span class="level-label">Pro</span>
+                                </h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="95%">
+                                    </div>
+                                </div>
+                                <!--//level-bar-->
+                            </div>
+                            <!--//item-->
+
+                            <p><a class="more-link" href="https://www.linkedin.com/in/sandip-sonawane-32b759ba/"><i
+                                    class="fa fa-external-link"></i> More on
+                                LinkedIn</a></p>
+                        </div>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+                {#            </aside>#}
+                <!--//section-->
+                <hr>
+                {#            <aside class="testimonials aside section card shadow p-3 bg-white rounded">#}
+                <div class="testimonials section-inner">
+                    <h2 class="heading">Testimonials</h2>
+                    <div class="content">
+                        <div class="item">
+                            <blockquote class="quote">
+                                <p><i class="fa fa-quote-left"></i>Sandip is knowledgeable in his area. He gets into
+                                    details and works towards finding a right solution. He is a team player and
+                                    willingly support in the area that he is skilled at. Certainly a great resource to
+                                    work with</p>
+                            </blockquote>
+                            <p class="source"><span class="name">Satish Taware</span><br/><span class="title">Engineering Manager, Eaton</span>
+                            </p>
+                        </div>
+                        <!--//item-->
+
+                        <p><a class="more-link" href="https://www.linkedin.com/in/sandip-sonawane-32b759ba/"><i
+                                class="fa fa-external-link"></i> More on Linkedin</a>
+                        </p>
+
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+                {#            </aside>#}
+                <!--//section-->
+                <hr>
+
+                {#            <aside class="languages aside section card shadow p-3 bg-white rounded">#}
+                <div class="languages section-inner">
+                    <h2 class="heading">Languages</h2>
+                    <div class="content">
+                        <ul class="list-unstyled">
+                            <li class="item">
+                                <span class="title"><strong>English:</strong></span>
+                                <span class="level">Professional Proficiency <br class="visible-xs"/><i
+                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                        class="fa fa-star"></i> </span>
+                            </li>
+                            <!--//item-->
+                            <li class="item">
+                                <span class="title"><strong>Hindi:</strong></span>
+                                <span class="level">Native Speaker<br class="visible-sm visible-xs"/><i
+                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                        class="fa fa-star"></i> </span>
+                            </li>
+                            <!--//item-->
+                        </ul>
+                    </div>
+                    <!--//content-->
+                </div>
+                <!--//section-inner-->
+                {#            </aside>#}
+                <!--//section-->
+                <hr>
+                {#            <aside class="algorithms aside section card shadow p-3 bg-white rounded">#}
+
+                {#                <div class="algorithms section-inner">#}
+                {#                    <h2 class="heading"> App by Algorithms</h2>#}
+                {##}
+                {#                    <div class="content">#}
+                {#                        <a href="{% url 'markov_text_generate' %}">#}
+                {#                            <button type="button" class="btn btn-outline-dark">Markov Chain</button>#}
+                {#                        </a>#}
+                {#                        <button type="button" class="btn btn-outline-dark">t-SNE</button>#}
+                {#                        <button type="button" class="btn btn-outline-dark">KNN</button>#}
+                {#                        <button type="button" class="btn btn-outline-dark">Random Forest</button>#}
+                {#                        <button type="button" class="btn btn-outline-dark">Logistic Regression</button>#}
+                {#                        <button type="button" class="btn btn-outline-dark">XgBoost</button>#}
+                {#                        <button type="button" class="btn btn-outline-dark">Decision Tree</button>#}
+                {#                        <button type="button" class="btn btn-outline-dark">Regression</button>#}
+                {#                    </div>#}
+                {#                    <!--//content-->#}
+                {#                </div>#}
+                <!--//section-inner-->
+            </aside>
+            <!--//section-->
+
+        </div>
+        <!--//secondary-->
+    </div>
+
+    <!--//row-->
+</div>
+<!--//masonry-->
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+<!-- Javascript -->
+{#<script type="text/javascript" src="{% static '/css/plugins/jquery-1.11.1.min.js' %}"></script>#}
+{#<script type="text/javascript" src="{% static '/css/plugins/bootstrap/js/bootstrap.min.js' %}"></script>#}
+{#<script type="text/javascript" src="{% static '/css/plugins/jquery-migrate-1.2.1.min.js' %}"></script>#}
+<script type="text/javascript" src="{% static '/css/plugins/jquery-rss/dist/jquery.rss.min.js' %}"></script>
+{#<!-- custom js -->#}
+{#<script type="text/javascript" src="{% static 'js/main.js' %}"></script>#}
+</body>
+
+
+{% include "My_Portfolio/footer.html" %}
+
+</html>

@@ -1,0 +1,26 @@
+.blog-title {
+    text-align-last: center;
+!important;
+    margin-bottom: 20px;
+!important;
+}
+
+.outline-item{
+    text-decoration: none;
+    color: black;
+}
+
+.Outline{
+    background-color: aliceblue;!important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+    .Outline {
+        display: none !important;
+    }
+}

@@ -1,0 +1,50 @@
+
+.top_skills_app {
+    display: grid;
+    grid-template-columns: 1.5fr 11fr;
+    grid-gap: 20px;
+    margin: 10px;
+
+}
+
+.sidebar {
+    background-color: #F2F7FE;
+    padding: 5px;
+}
+
+.main-view {
+    background-color: #F2F7FE;
+}
+
+.card {
+    text-align: -webkit-center;
+}
+
+.sidebar button {
+    margin: 5px;
+    width: 80%;
+}
+
+.top_skills_app .card {
+    border-radius: 10px;
+}
+
+.top_skills_app .card .btn {
+    border-radius: 8px;
+}
+
+.sidebar-info {
+    margin: 3%;
+}
+
+.sidebar-info > h6 {
+    text-align: -webkit-left;
+}
+
+#ldavis_el105401850066313392497354393{
+    margin: 25px;
+}
+
+/*body {*/
+/*    overflow: hidden;*/
+/*}*/

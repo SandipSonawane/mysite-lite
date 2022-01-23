@@ -1,0 +1,37 @@
+
+.social {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.list-inline > li {
+    width: 2em;
+    flex: none;
+    margin-right: 1em;
+}
+
+.profile-image {
+    width: 15%;
+    border-radius: 25px;
+}
+
+.about > div {
+    background-color: #3c3c3c;
+}
+
+.project-image {
+    width: 80%;
+    padding: 0px;
+}
+
+.item.sub-apps{
+    display: grid;
+    grid-template-columns: 2.5fr 5fr;
+}
+
+.sub-app-img-section .sub-app-btn{
+    margin-top: 20px;
+    justify-self: center;
+}
+
