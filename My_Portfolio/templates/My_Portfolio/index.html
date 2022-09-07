@@ -42,7 +42,7 @@
         <div class="row">
             <div class="primary col-md-12 col-sm-12 col-xs-12">
 
-                <section class="profile header card shadow p-3 bg-white rounded section">
+                <section class="profile header card p-3 bg-white rounded section">
                     <div class="container card-body">
                         <img class="profile-image img-responsive pull-left"
                             src="https://avatars.githubusercontent.com/u/61373052?s=400&u=25db33aba6319d4d2423be97d0b9d97c3d4f4e96&v=4"
@@ -70,15 +70,36 @@
 
                     <section class="p-3 bg-white rounded" id="about">
                         <div class="section-inner">
-                            <h2 class="heading">About Me</h2>
+                            <h2 class="heading">Hi there!</h2>
                             <div class="content">
+
+                                <p>
+                                    My name is Sandip Sonawane and this is my personal website.
+                                    It is an amalgation of several important parts of myself and my work.
+                                </p>
                                 <p>
                                     I am currently pursuing Master's Degree in Statistics from University of Illinois at
-                                    Urbana-Champaign. I have a strong background with professional experience in
-                                    statistics, software development,
-                                    data science and machine learning. My goal is to continue excel in the field of Data
-                                    Science
-                                    and machine learning.
+                                    Urbana-Champaign where I have learned from some of the best faculty in the field of
+                                    statistics and computer science.
+                                    I am also doing a co-op at Evernorth (Cigna Corp.). Here, I am responsible for
+                                    building predictive models for several
+                                    healthcare products.
+                                </p>
+                                <p>
+                                    I am deeply interested in leveraging of statistical methods to solve business
+                                    problems.
+                                    I am also keen on building software solutions which help us deliver data science
+                                    solutions to end users.
+                                    In my free time, I constantly try to explore new topics in the field of data
+                                    science.
+                                </p>
+                                <p>
+                                    Currently I am working on mitigating bias in predictive models through multi-object
+                                    optimization. I am also upskilling myself with host of courses at the U of I!
+                                </p>
+                                <p>
+                                    To reinvigorate myself and take care of my health, I hit the gym at-least four days a
+                                    week. I like traveling, cooking, and trying new recipes.
                                 </p>
 
                             </div>
@@ -92,60 +113,12 @@
 
 
                 <!--//section latest apps section-->
-                <section class="latest section card shadow p-3 bg-white rounded">
+                <section class="latest section card p-3 bg-white rounded">
                     <div class="section-inner">
                         <h2 class="heading" id="apps">Latest Apps</h2>
                         <div class="content">
 
-                            <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
-                                    style="width: 100%; margin-bottom: 14px;" href="http://3.94.80.217:8000/places/" {#
-                                    href="http://3.19.69.21:8000/movie_recommender/" #}>Scene
-                                    Identification</a></h3>
 
-                            <div class="item row featured-image sub-apps">
-                                <div class="sub-app-img-section">
-
-                                    <a class="" href="http://3.94.80.217:8000/places/" {#
-                                        href="http://3.19.69.21:8000/movie_recommender/" #}>
-                                        <img class="img-responsive project-image"
-                                            src="{% static '/images/projects/places.png' %}" alt="project name" />
-                                    </a>
-                                    <a class="btn btn-light sub-app-btn" href="http://3.94.80.217:8000/places/" {#
-                                        href="http://3.19.69.21:8000/movie_recommender/" #}><i
-                                            class="fa fa-external-link"></i> Go to App</a>
-                                </div>
-
-                                <div class="sub-app-content">
-                                    <div class="ribbon">
-                                        <div class="text">App</div>
-                                    </div>
-
-
-                                    <div class="desc">
-                                        <h3 class="title inMiddle"><a class="btn btn-light"
-                                                href="http://3.94.80.217:8000/places/" {#
-                                                href="http://3.19.69.21:8000/movie_recommender/" #}>Scene
-                                                Recognition</a></h3>
-                                        <p>This app is predicts scene and the scene attributes present in the image
-                                            using DenseNet model pre-trained on ImageNet. It was built as part of CS 444
-                                            (Deep Learning for computer vision) course final project.</p>
-                                        <p>
-                                            The heatmap shows most important regions for prediction of the scene
-                                            classifier. The multi-label classifier is accurate and consistent in
-                                            recognizing the scene and predicting scene attributes as it acheived mAP of
-                                            95%.
-                                        </p>
-
-                                        <p>
-                                            Click and explore the app yourself. You can upload your own image, OR
-                                            try the app with sample images provided.
-                                        </p>
-                                    </div>
-                                    <!--//desc-->
-                                </div>
-                            </div>
-                            <!--//item-->
-                            <hr class="divider" />
 
                             <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
                                     style="width: 100%; margin-bottom: 14px;"
@@ -198,6 +171,55 @@
                             <!--//item-->
                             <hr class="divider" />
                             <!--This section is for mobile -->
+
+                            <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
+                                    style="width: 100%; margin-bottom: 14px;" href="http://3.94.80.217:8000/places/" {#
+                                    href="http://3.19.69.21:8000/movie_recommender/" #}>Scene
+                                    Identification</a></h3>
+
+                            <div class="item row featured-image sub-apps">
+                                <div class="sub-app-img-section">
+
+                                    <a class="" href="http://3.94.80.217:8000/places/" {#
+                                        href="http://3.19.69.21:8000/movie_recommender/" #}>
+                                        <img class="img-responsive project-image"
+                                            src="{% static '/images/projects/places.png' %}" alt="project name" />
+                                    </a>
+                                    <a class="btn btn-light sub-app-btn" href="http://3.94.80.217:8000/places/" {#
+                                        href="http://3.19.69.21:8000/movie_recommender/" #}><i
+                                            class="fa fa-external-link"></i> Go to App</a>
+                                </div>
+
+                                <div class="sub-app-content">
+                                    <div class="ribbon">
+                                        <div class="text">App</div>
+                                    </div>
+
+
+                                    <div class="desc">
+                                        <h3 class="title inMiddle"><a class="btn btn-light"
+                                                href="http://3.94.80.217:8000/places/" {#
+                                                href="http://3.19.69.21:8000/movie_recommender/" #}>Scene
+                                                Recognition</a></h3>
+                                        <p>This app is predicts scene and the scene attributes present in the image
+                                            using DenseNet model pre-trained on ImageNet. It was built as part of CS 444
+                                            (Deep Learning for computer vision) course final project.</p>
+                                        <p>
+                                            The heatmap shows most important regions for prediction of the scene
+                                            classifier. The multi-label classifier is accurate and consistent in
+                                            recognizing the scene and predicting scene attributes as it acheived mAP of
+                                            95%.
+                                        </p>
+
+                                        <p>
+                                            Click and explore the app yourself. You can upload your own image, OR
+                                            try the app with sample images provided.
+                                        </p>
+                                    </div>
+                                    <!--//desc-->
+                                </div>
+                            </div>
+                            <hr class="divider" />
 
                             <h3 class="title atTop" style="width: 100%"><a class="btn btn-dark"
                                     style="width: 100%; margin-bottom: 14px;"
@@ -370,7 +392,7 @@
                 </section>
                 <!--//section-->
 
-                <section class="experience section card shadow p-3 bg-white rounded">
+                <section class="experience section card p-3 bg-white rounded">
                     <div class="section-inner">
                         <h2 class="heading" id="work-experience">Work Experience</h2>
                         <div class="content">
@@ -460,7 +482,7 @@
                 </section>
                 <!--//section-->
 
-                <section class="projects section card shadow p-3 bg-white rounded" id="projects">
+                <section class="projects section card p-3 bg-white rounded" id="projects">
                     <div class="section-inner">
                         <h2 class="heading">Projects</h2>
                         <div class="content">
@@ -549,10 +571,7 @@
 
                 <div class="secondary-col-1">
 
-
-
-
-                    <aside class="education aside section card shadow p-3 bg-white rounded">
+                    <aside class="education aside card section p-3 bg-white rounded">
                         <div class="section-inner">
                             <h2 class="heading">Education</h2>
                             <div class="content">
@@ -579,194 +598,145 @@
                         </div>
                         <!--//section-inner-->
 
-                        <!-- </aside> -->
-                        <!--//section-->
-                        <hr>
-                        <!-- <aside class="courses aside section card shadow p-3 bg-white rounded"> -->
-                        <div class="courses section-inner">
-                            <h2 class="heading">Courses</h2>
-                            <div class="content">
-                                <div class="item">
-                                    <ul>
-                                        <li>
-                                            <h3> Deep Learning for Computer Vision (A+)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Cloud Computing Applications (A)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Statistical Learning (A)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Unsupervised Learning (A+)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Algorithms for Data Analytics (A)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Mathematical Statistics (A-)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Statistics and Probability II (A)</h3>
-                                        </li>
-                                        <li>
-                                            <h3> Applied Regression and Design (A+)</h3>
-                                        </li>
+                    </aside>
+                    <!--//section-->
+                    <!-- <hr> -->
+                    <!-- <aside class="courses aside section p-3 bg-white rounded"> -->
+                    <div class="courses section-inner card se p-3 bg-white rounded">
+                        <h2 class="heading">Courses</h2>
+                        <div class="content">
+                            <div class="item">
+                                <ul>
+                                    <li>
+                                        <h3> Deep Learning for Computer Vision (A+)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Cloud Computing Applications (A)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Statistical Learning (A)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Unsupervised Learning (A+)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Algorithms for Data Analytics (A)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Mathematical Statistics (A-)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Statistics and Probability II (A)</h3>
+                                    </li>
+                                    <li>
+                                        <h3> Applied Regression and Design (A+)</h3>
+                                    </li>
 
-                                        <li>
-                                            <h3> Basics of Statistical Learning (A+)</h3>
-                                        </li>
-                                    </ul>
-                                </div>
-
+                                    <li>
+                                        <h3> Basics of Statistical Learning (A+)</h3>
+                                    </li>
+                                </ul>
                             </div>
 
                         </div>
 
+                    </div>
                 </div>
 
+                <div class="secondary-col-2">
+                    <!-- <aside class="skills aside section p-3 bg-white rounded"> -->
+                    <div class="skills section-inner aside card section p-3 bg-white rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                            </p>
 
-                <hr>
-                <!-- <aside class="skills aside section card shadow p-3 bg-white rounded"> -->
-                <div class="skills section-inner">
-                    <h2 class="heading">Skills</h2>
-                    <div class="content">
-                        <p class="intro">
-                        </p>
+                            <div class="skillset">
 
-                        <div class="skillset">
-
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django<span class="level-label"
-                                        data-toggle="tooltip" data-placement="left" data-animation="true"
-                                        title="You can use the tooltip to add more info...">Expert</span>
-                                </h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="96%">
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Django<span class="level-label"
+                                            data-toggle="tooltip" data-placement="left" data-animation="true"
+                                            title="You can use the tooltip to add more info...">Expert</span>
+                                    </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
                                     </div>
+                                    <!--//level-bar-->
                                 </div>
-                                <!--//level-bar-->
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Javascript, HTML5, CSS3<span
+                                            class="level-label">Expert</span>
+                                    </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="90%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">R, SQL, VBA<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Plotly, PowerBI, Matplotlib, GGplot2<span
+                                            class="level-label">Pro</span>
+                                    </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="95%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <p><a class="more-link" href="https://www.linkedin.com/in/sandip-sonawane-32b759ba/"><i
+                                            class="fa fa-external-link"></i> More on
+                                        LinkedIn</a></p>
                             </div>
-                            <!--//item-->
+                        </div>
+                    </div>
 
+                    <!-- <aside class="testimonials aside section p-3 bg-white rounded"> -->
+                    <div class="testimonials section-inner card se p-3 bg-white rounded">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
                             <div class="item">
-                                <h3 class="level-title">Javascript, HTML5, CSS3<span class="level-label">Expert</span>
-                                </h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="90%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">R, SQL, VBA<span class="level-label">Expert</span></h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="96%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
-                            </div>
-                            <!--//item-->
-
-                            <div class="item">
-                                <h3 class="level-title">Plotly, PowerBI, Matplotlib, GGplot2<span
-                                        class="level-label">Pro</span>
-                                </h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" data-level="95%">
-                                    </div>
-                                </div>
-                                <!--//level-bar-->
+                                <blockquote class="quote">
+                                    <p><i class="fa fa-quote-left"></i>Sandip is knowledgeable in his area. He gets into
+                                        details and works towards finding a right solution. He is a team player and
+                                        willingly support in the area that he is skilled at. Certainly a great resource
+                                        to
+                                        work with</p>
+                                </blockquote>
+                                <p class="source"><span class="name">Satish Taware</span><br /><span
+                                        class="title">Engineering Manager, Eaton</span>
+                                </p>
                             </div>
                             <!--//item-->
 
                             <p><a class="more-link" href="https://www.linkedin.com/in/sandip-sonawane-32b759ba/"><i
-                                        class="fa fa-external-link"></i> More on
-                                    LinkedIn</a></p>
-                        </div>
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-
-                <!-- </aside> -->
-                <!--//section-->
-                <hr>
-                <!-- <aside class="testimonials aside section card shadow p-3 bg-white rounded"> -->
-                <div class="testimonials section-inner">
-                    <h2 class="heading">Testimonials</h2>
-                    <div class="content">
-                        <div class="item">
-                            <blockquote class="quote">
-                                <p><i class="fa fa-quote-left"></i>Sandip is knowledgeable in his area. He gets into
-                                    details and works towards finding a right solution. He is a team player and
-                                    willingly support in the area that he is skilled at. Certainly a great resource
-                                    to
-                                    work with</p>
-                            </blockquote>
-                            <p class="source"><span class="name">Satish Taware</span><br /><span
-                                    class="title">Engineering Manager, Eaton</span>
+                                        class="fa fa-external-link"></i> More on Linkedin</a>
                             </p>
+
                         </div>
-                        <!--//item-->
-
-                        <p><a class="more-link" href="https://www.linkedin.com/in/sandip-sonawane-32b759ba/"><i
-                                    class="fa fa-external-link"></i> More on Linkedin</a>
-                        </p>
-
                     </div>
-                    <!--//content-->
                 </div>
-                <!--//section-inner-->
-
-                <!-- </aside> -->
-                <!--//section-->
-                <hr>
-
-                <!-- <aside class="languages aside section card shadow p-3 bg-white rounded"> -->
-                <div class="languages section-inner">
-                    <h2 class="heading">Languages</h2>
-                    <div class="content">
-                        <ul class="list-unstyled">
-                            <li class="item">
-                                <span class="title"><strong>English:</strong></span>
-                                <span class="level">Professional Proficiency <br class="visible-xs" /><i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                            </li>
-                            <!--//item-->
-                            <li class="item">
-                                <span class="title"><strong>Hindi:</strong></span>
-                                <span class="level">Native Speaker<br class="visible-sm visible-xs" /><i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
-                                        class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                            </li>
-                            <!--//item-->
-                        </ul>
-                    </div>
-                    <!--//content-->
-                </div>
-                <!--//section-inner-->
-
-                </aside>
-                <!--//section-->
 
             </div>
-            <!--//secondary-->
         </div>
 
-        <!--//row-->
     </div>
-    <!--//masonry-->
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

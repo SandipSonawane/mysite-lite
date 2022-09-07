@@ -24,6 +24,7 @@ body {
 .container .secondary{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
 }
 
 
@@ -689,6 +690,11 @@ iframe {
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+
+    .container .secondary{
+        display: block
+    }
+
     .header {
         text-align: center;
     }
