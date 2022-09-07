@@ -1,3 +1,14 @@
+.profile{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.profile .profile-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+}
+
 
 .social {
     display: flex;
@@ -12,7 +23,7 @@
 }
 
 .profile-image {
-    width: 15%;
+    width: 29%;
     border-radius: 25px;
 }
 
@@ -23,6 +34,13 @@
 .project-image {
     width: 80%;
     padding: 0px;
+}
+
+.stats-image{
+    width: 61%;
+    padding: 0px;
+    border-radius: 25px;
+    margin: 3%;
 }
 
 .item.sub-apps{

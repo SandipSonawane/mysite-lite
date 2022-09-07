@@ -695,6 +695,14 @@ iframe {
         display: block
     }
 
+    .stats-image{
+        display: none;
+    }
+
+    .profile .profile-header{
+        display: block;
+    }
+
     .header {
         text-align: center;
     }

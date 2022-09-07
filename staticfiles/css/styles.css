@@ -17,9 +17,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.mobile{
+/* .container .mobile{
     display: None;
+} */
+
+.container .secondary{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
 }
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -681,6 +690,19 @@ iframe {
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+
+    .container .secondary{
+        display: block
+    }
+
+    .stats-image{
+        display: none;
+    }
+
+    .profile .profile-header{
+        display: block;
+    }
+
     .header {
         text-align: center;
     }
